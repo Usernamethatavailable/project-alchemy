@@ -1,0 +1,13 @@
+/reports/
+/knowledge/
+/release/
+/validation/results.md
+/validation/runs/
+/docs/superpowers/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

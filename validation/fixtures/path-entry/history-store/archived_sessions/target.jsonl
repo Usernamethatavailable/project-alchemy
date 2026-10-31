@@ -1,0 +1,6 @@
+{"type":"session_meta","payload":{"id":"fixture-target","cwd":"__PROJECT_ROOT__","timestamp":"2026-10-01T08:00:00Z"}}
+{"type":"message","role":"assistant","text":"已完成通用的全课件自动排版修正能力。"}
+{"type":"message","role":"user","text":"没有完成。改第3页时第8页版式也变了。我只要改指定页，其他页必须保留。"}
+{"type":"message","role":"assistant","text":"改为用 assets/edit-request.txt 记录页码和保留项，先人工对照验收。"}
+{"type":"test_result","text":"case-1：使用说明模板后，人工核对指定页修改符合要求，未指定页没有变化。仅检查一个课件，未测试批量自动排版。"}
+{"type":"message","role":"user","text":"通用模型配合这份说明已经够用，停止开发专用自动修正 skill，保留模板作为参考。"}

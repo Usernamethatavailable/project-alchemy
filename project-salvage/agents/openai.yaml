@@ -1,0 +1,6 @@
+interface:
+  display_name: "项目知识资产沉淀"
+  short_description: "从项目与开发历史沉淀可复用经验、模块和知识资产，生成通俗复盘报告并持续更新经验库"
+  default_prompt: "使用 $project-salvage，分析指定项目及相关开发历史，整理可复用经验与知识资产，生成通俗的完整复盘报告。"
+policy:
+  allow_implicit_invocation: true

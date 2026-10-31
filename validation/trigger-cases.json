@@ -1,0 +1,10 @@
+[
+  {"query": "复盘一下这个项目，列关键节点和可复用模块", "should_trigger": true},
+  {"query": "这坑不想再踩了，把刚才有效的处理办法留作下次能查的经验", "should_trigger": true},
+  {"query": "项目先放下，把还有用的东西整理成知识资产", "should_trigger": true},
+  {"query": "从经验库找以前类似的问题怎么解决", "should_trigger": true},
+  {"query": "修一下登录报错，先让它能跑", "should_trigger": false},
+  {"query": "给网站加一个每日复盘功能", "should_trigger": false},
+  {"query": "保存这个PPT到桌面", "should_trigger": false},
+  {"query": "$project-salvage，分析这个目录能留下什么", "should_trigger": true}
+]

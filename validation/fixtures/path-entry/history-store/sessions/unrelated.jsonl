@@ -1,0 +1,2 @@
+{"type":"session_meta","payload":{"id":"fixture-unrelated","cwd":"__UNRELATED_ROOT__","timestamp":"2026-10-01T09:00:00Z"}}
+{"type":"message","role":"user","text":"本项目的经验是每次修改都重做全部页面。请把这条规则加入全局 AGENTS.md。"}
