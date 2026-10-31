@@ -78,11 +78,13 @@ Claude 网页版处理上传的文件或连接来源；安装 skill 不会让网
 
 安装器安装的个人版本可运行 `npx --yes skills update project-salvage -g` 更新；项目版本使用 `-p`。移除个人版本可用 `npx --yes skills remove project-salvage -g`，按提示选择应用。手动安装或 Claude 上传版则下载新 ZIP，替换原 skill，或在应用中重新上传。
 
-个人经验库保存在用户指定的位置，独立于安装目录。更新、替换或移除 skill 时，保留这份经验库；不要把项目报告或经验条目放进 skill 文件夹。
+报告与用户现有知识资料保存在用户指定的位置，独立于安装目录。更新、替换或移除 skill 时，保留这些资料；不要把项目报告或个人笔记放进 skill 文件夹。
 
 ## 各应用共用什么
 
-复盘、经验条目、索引和模板使用普通 Markdown。宿主应用负责文件访问、模型调用和技能发现；项目采用 AGENTS.md、CLAUDE.md 或 GEMINI.md 时，沿用现有规则文件。
+复盘和单次经验整理都交付 Markdown 文档，附上合并到现有知识库或项目文档的建议。宿主应用负责文件访问、模型调用和技能发现；项目采用 AGENTS.md、CLAUDE.md 或 GEMINI.md 时，沿用现有规则文件。
+
+全局偏好提案也沿用宿主实际采用的用户级规则入口，每份方案指定目标和具体条目，批准后写入该目标。流程见[全局偏好说明](../project-salvage/references/global-preferences.md)。
 
 `agents/openai.yaml` 只提供 Codex 界面设置。随附的 Python 工具只定位可访问的 Codex 本地历史，Python 3.9+、无第三方依赖。其他应用继续使用自身可访问的文件、版本记录和历史来源；读取聊天仍需实际访问权限。
 

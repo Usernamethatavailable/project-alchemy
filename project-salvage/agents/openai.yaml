@@ -1,6 +1,6 @@
 interface:
   display_name: "项目资产抢救企划"
-  short_description: "从项目文件与开发历史中找回可复用的经验、模块和知识资产，生成完整复盘并持续更新经验库"
-  default_prompt: "使用 $project-salvage（项目资产抢救企划），分析指定项目及开发历史，找回可复用经验、模块和知识资产，生成通俗的完整复盘报告。"
+  short_description: "找回可复用经验和模块，交付Markdown文档，建议沉淀到现有知识库、项目文档或获批的全局指令"
+  default_prompt: "使用 $project-salvage（项目资产抢救企划）整理指定项目或问题，交付Markdown文档与具体沉淀建议，涉及全局指令时先给提案，获批后写入。"
 policy:
   allow_implicit_invocation: true
