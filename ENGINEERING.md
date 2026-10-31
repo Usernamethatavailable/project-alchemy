@@ -1,6 +1,6 @@
 # 工程基线
 
-本项目交付 `project-salvage` skill。`SKILL.md` 负责完整复盘、轻量经验更新和查用；经验库协议定义独立条目、稳定编号、索引、证据与合并规则。资料使用普通 Markdown，由 agent 做语义判断，不增加知识管理服务。
+本项目交付“项目资产抢救企划”（`project-salvage`）skill，从项目文件和开发历史中找回可复用经验、模块与知识资产。`SKILL.md` 负责完整复盘、轻量经验更新和查用；经验库协议定义独立条目、稳定编号、索引、证据与合并规则。资料使用普通 Markdown，由 agent 做语义判断，不增加知识管理服务。
 
 `scripts/find_project_history.py` 只负责从 JSONL 首行与本地 SQLite `threads` 元数据定位记录，Python 标准库，无外部依赖；支持实际索引指向的压缩记录及 Windows 扩展路径，不读取聊天正文。`validation/prepare_scenario.py` 只复制合成场景到新目录并绑定测试路径，不覆盖已有目录。
 

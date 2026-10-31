@@ -1,11 +1,11 @@
 ---
 name: project-salvage
-description: Use when a developer asks to review project history, preserve reusable knowledge or assets, save lessons from a resolved problem, update experience, or recall past solutions. 遇到“复盘项目”“沉淀经验”“留存知识资产”“找可复用模块”“别再踩这个坑”“以前怎么解决”等意图时主动调用，无需用户说出 skill 名称。普通开发、单次排错、保存文件，以及开发名为“复盘”的功能不因此触发。
+description: Use when a developer asks to review project history, preserve reusable knowledge or assets, save lessons from a resolved problem, update experience, or recall past solutions. 用户提到“项目资产抢救企划”，或表达“复盘项目”“沉淀经验”“留存知识资产”“找可复用模块”“别再踩这个坑”“以前怎么解决”等意图时主动调用。普通开发、单次排错、保存文件，以及开发名为“复盘”的功能不因此触发。
 ---
 
-# 项目知识资产沉淀
+# 项目资产抢救企划
 
-把已发生的开发过程，转化为下次能找到、能判断、能使用的经验和资产。项目成功、失败、搁置或被通用能力覆盖，都可以复盘；投入很多不构成必须留下东西的理由。
+从项目文件和开发历史中，找回可复用的经验、模块与知识资产，整理成完整复盘和下次能查用的经验条目。项目成功、失败、搁置或被通用能力覆盖，都可以复盘；投入很多不构成必须留下东西的理由。
 
 项目路径就是取材入口。主动查找仍在本地或可用连接中留存的项目材料与相关开发历史，减少用户手动整理、复制和上传资料的工作；让结论能追溯到原始证据。
 
